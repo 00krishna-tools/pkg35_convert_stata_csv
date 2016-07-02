@@ -23,23 +23,23 @@ test_requirements = [
 ]
 
 setup(
-    name='pyugend',
-    version='0.5.0',
-    description="python package for university gender dynamics",
+    name='pkg35_convert_stata_csv',
+    version='0.1.0',
+    description="python package to convert files from stata to csv format",
     long_description=readme + '\n\n' + history,
     author="krishna bhogaonker",
     author_email='cyclotomiq@gmail.com',
-    url='https://github.com/00krishna/pyugend',
+    url='',
     packages=[
-        'pyugend',
+        'pkg35_convert_stata_csv',
     ],
-    package_dir={'pyugend':
-                 'pyugend'},
+    package_dir={'pkg35_convert_stata_csv':
+                 'pkg35_convert_stata_csv'},
     include_package_data=True,
     install_requires=requirements,
     license="ISCL",
     zip_safe=False,
-    keywords='pyugend',
+    keywords='pkg35_convert_stata_csv',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
